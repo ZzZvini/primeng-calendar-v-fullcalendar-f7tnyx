@@ -1,0 +1,5 @@
+
+
+<p-button label="SomeButton" (onClick)="gotoDate()"></p-button>
+<br>
+<p-fullCalendar #fc [events]="events" [options]="options" (viewRender)="fetchEvents($event)"></p-fullCalendar>
